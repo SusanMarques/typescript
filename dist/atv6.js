@@ -1,0 +1,15 @@
+"use strict";
+let qntpequeno = 1;
+let qntmedio = 2;
+let qntgrande = 10;
+let precodapequena = 10;
+let precodamedia = 12;
+let precodagrande = 15;
+let valorarrecadadodapequena = (qntpequeno * precodapequena);
+let valorarrecadadodamedia = (qntmedio * precodamedia);
+let valorarrecadadodagrande = (qntgrande * precodagrande);
+let valortotalarrecadado = (valorarrecadadodapequena + valorarrecadadodamedia + valorarrecadadodagrande);
+console.log("O valor arreadado da camisa pequena foi R$" + valorarrecadadodapequena);
+console.log("O valor arreadado da camisa média foi R$" + valorarrecadadodamedia);
+console.log("O valor arreadado da camisa grande foi R$" + valorarrecadadodagrande);
+console.log("O valor total arrecadado foi de R$" + valortotalarrecadado);
